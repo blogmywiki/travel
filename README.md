@@ -5,7 +5,7 @@ Terence Eden has a cool project to turn a Nook e-reader into a personal display 
 I thought I'd do something similar and would start with the PHP / web page end. I'll skip the Nook bit for now, and just bookmark this page on my phone so I have trains and buses on one page. It only shows trains with platforms allocated (i.e. that may run any time soon) more than 10 minutes in the future - to allow me time to get to the station - and buses more than 5 minutes away.
 
 I had a few issues:
-- I want to host it on my hosting company's server which is in a diffeeent time zone, so I had to add code to compensate for that
+- I want to host it on my hosting company's server which is in a different time zone, so I had to add code to compensate for that
 - It runs an ancient version of PHP and not all of Terence's code would work
 - It really wasn't happy about slurping in the bus data from another site
 - I wanted to add two different train routes from different stations as different people in our house have completely different journeys to make
