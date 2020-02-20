@@ -10,7 +10,7 @@ I had a few issues:
 - It really wasn't happy about slurping in the bus data from another site
 - I wanted to add two different train routes from different stations as different people in our house have completely different journeys to make
 
-So I cooked up a hideous kludge* that is half PHP, half-JavaScript. JavaScript seems to have no compunctions about slurping London bus data from TfL.
+So I cooked up a hideous kludge* that is half-PHP, half-JavaScript. JavaScript seems to have no compunctions about slurping London bus data from TfL.
 
 If you want to do something similar, the index.php file works for me with PHP version 5.3.16
 
