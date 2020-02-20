@@ -1,4 +1,4 @@
-# travel - personal train and London bus times
+# travel - hyper-local personal train and London bus times
 
 Terence Eden has a cool project to turn a Nook e-reader into a personal display of the next useful trains and London buses to depart from near his home: https://shkspr.mobi/blog/2020/02/turn-an-old-ereader-into-an-information-screen-nook-str/ 
 
@@ -13,6 +13,8 @@ I had a few issues:
 So I cooked up a hideous kludge* that is half-PHP, half-JavaScript. JavaScript seems to have no compunctions about slurping London bus data from TfL.
 
 If you want to do something similar, the index.php file works for me with PHP version 5.3.16
+
+If you don't have access to a webserver running PHP (whether via a hosting company or a Raspberry Pi running on your home network), and you live in London, you could still use the JavaScript portion of index.php and run the file as pure html on your own computer just to get the bus data.
 
 You'll need to modify a few things to get it to work:
 - get your own National Rail data API key from here and add it to index.php: http://realtime.nationalrail.co.uk/OpenLDBWSRegistration
