@@ -22,3 +22,5 @@ You'll need to modify a few things to get it to work:
 - make sure the OpenLDBWS.php file is in the same directory as index.php
 
 The buses are sorted in order of next arrival, but you could tidy this up by only showing each route once with the times for that bus.
+
+![Screenshot](screenshot.png)
