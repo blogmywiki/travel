@@ -19,7 +19,7 @@ If you don't have access to a webserver running PHP (whether via a hosting compa
 You'll need to modify a few things to get it to work:
 - get your own National Rail data API key from here and add it to index.php: http://realtime.nationalrail.co.uk/OpenLDBWSRegistration
 - change the 3-letter station codes; the first should be your nearest station, the second where you want to go to
-- use the CSV file to find the 'Naptan_Atco' code for your nearest bus stop and plug that in to the JavaScript section of the index.php
+- use the CSV file to find the 'Naptan_Atco' code for your nearest bus stop and plug that in to the JavaScript section of the index.php (line 227)
 - modify the time offsets to only show trains you can catch for each station, depending on how long it takes you to get to each station (lines 134 & 198)
 - modify 120 on line 236 (120 = 2 minutes) to equal how long it takes to walk to your bus stop 
 - make sure the OpenLDBWS.php file is in the same directory as index.php
